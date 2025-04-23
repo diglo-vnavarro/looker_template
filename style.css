@@ -199,3 +199,32 @@
     font-family: Open Sans,Helvetica,Arial,sans-serif;
     margin: 4px;
   }
+
+  /* ------------------------------------------
+   Coloreado de filas específicas en reportTable
+   ------------------------------------------ */
+  /* Fila 1: Order Count – fondo blanco, texto negro */
+  .reportTable tr:nth-child(1) td {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  /* Fila 2: Order Item Count – fondo gris claro, texto negro */
+  .reportTable tr:nth-child(2) td {
+    background-color: #f2f2f2 !important;
+    color: black !important;
+  }
+
+  /* Fila 3: Percent Revenue Email Source – fondo verde claro, texto negro */
+  .reportTable tr:nth-child(3) td {
+    background-color: #d4edda !important;
+    color: black !important;
+  }
+
+  /* ------------------------------------------
+    Estilo para la fila de encabezado (thead)
+    ------------------------------------------ */
+  .reportTable thead tr th {
+    background-color: #003366 !important;
+    color: white !important;
+  }
